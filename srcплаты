@@ -1,0 +1,189 @@
+
+import-gaming-orange'
+  }, { Button } from '@/components/ui/button';
+  {
+    icon: 'Shiel
+import { Card, CardContent, CardHeader, Card',
+    title: 'DdTitle } from '@/components/ui/card';DoS защита',
+    description: '
+import Icon from '@/components/ui/icon';
+
+const plans = [
+  {
+    nameМногоуровневая защита от атак: 'Starter',
+     и высокие стандарты безprice: '299',
+    perioопасности',
+    color:d: 'мес',
+     'text-gaming-blue'
+  },description: 'Ид
+  {
+    icon: 'Server',
+    title: 'SSD накопители',
+    description: 'Только быеально для начинающих',
+    features:стрые NVMe SSD [
+      '2 GB RAM',
+      '20 GB SSD',
+      'До 10 игроков', диски для максимальной производ
+      'Базовая поддержка',ительности',
+    color: 'text-gaming
+      'Minecraft, Terraria'-purple'
+  },
+    ],
+    color: 'bg
+  {
+    -gradient-to-br from-gaming-icon: 'Users',blue to-gaming-purple',
+    title: 'Поддержка 24/7',
+    description: 'На
+    popular: false
+  },ша команда всегда на связ
+  {
+    name: 'Proи, чтобы пом',
+    price: '699очь решить любые в',
+    period: 'мопросы',
+    color:ес',
+    description: ' 'text-gaming-pinkДля серьёзных игроков',
+    '
+  },
+  {features: [
+      '8
+    icon: 'Database GB RAM',
+      '80',
+    title: ' GB SSD',
+      'До 50 игроков',Автобэкапы',
+      'При
+    description: 'Автоматическое создание резерворитетная поных копий каждые 6 часов',
+    color:ддержка',
+      ' 'text-gaming-orange'
+  },Все популярные игры',
+      '
+  {
+    icon: 'Settings',
+    title: 'Автобэкапы'
+    ],
+    color: 'bg-gradient-toПолный контроль',
+    description: 'FTP доступ, консоль управления-br from-gaming-orange to-gaming-pink',
+    popular: true
+  },
+  {
+    name: 'Enterprise и возможность установки модов',
+    color: 'text-',
+    price: '1499',gaming-blue'
+  }
+];
+
+const
+    period: 'мес',
+    description FeaturesSection = () => {: 'Максимальная производ
+  return (
+    <section className="py-20 bg-grayительность',
+    features: [
+      '16-50 dark:bg-gaming-dark"> GB RAM',
+      '200 GB SSD
+      <div className="container mx-',
+      'До 200 игроковauto px-6">
+        ',
+      '24/7 <div className="text-center mb-16">
+          <h2 поддержка',
+      'className="text-4xl md:Все игры + моды',text-5xl
+      'Автобэк font-bold textапы',
+      'Вы-gray-900 dark:text-white mb-4">
+            Почделенный IP',
+      'Кастему именно омные настройки'
+    ],<span className="gaming-gradient bg-clip-text text-transparent">мы?</span
+    color: 'bg-gradient>
+          </h2>-to-br from-gaming-purple
+          <p className="text-xl to-gaming-pink',
+    popular: text-gray-600 dark:text-gray-300 max- false
+  }
+];
+
+constw-2xl mx-auto"> PricingSection = () => {
+            Мы знаем, что
+  return (
+    <section className=" нужно геймерам.py-20 bg-gradient- Надежность, скto-b from-black to-gaming-dark">
+      <div className="container mx-auto px-6">
+        <div className="орость и качественная поддержка
+          </p>
+        </divtext-center mb-16">
+          <h2>
+        
+        <div className className="text-5xl font-bold text-="grid grid-cols-1 md:grid-cols-2 white mb-4">
+            lg:grid-cols-3 Тарифные
+            gap-8">
+          {features<span className="block bg-gradient-to.map((feature, index) =>-r from-gaming-orange to-gaming- (
+            <Card keypink bg-clip-text text-={feature.title} className="group hover:scale-transparent">
+              планы
+            </span105 transition-all duration-300>
+          </h2>
+          <p className hover:gaming-glow border="text-xl text-gray-300 max--2 hover:border-gamingw-2xl mx-auto">-purple">
+              <CardContent
+            От небольших className="p-8 text-center">
+                <div className серверов для друзей до м={`inline-flex items-center justify-centerощных решений для больших сооб w-16 h-16 rounded-2ществ
+          </pxl bg-gray-100>
+        </div>
+
+         dark:bg-gaming-dark<div className="grid grid-cols-1 m/50 mb-6 groupd:grid-cols-3 gap-8 max-w-6-hover:animate-bounce ${xl mx-autofeature.color}`}>
+                  ">
+          {plans.map((plan<Icon name={feature.icon as, index) => (
+             any} size={32} /><Card
+              key={plan
+                </div>
+                .name}
+              className={`relative<h3 className="text-xl bg-gray-900/ font-semibold text-gray50 border-gray-700-900 dark:text-white mb-4 hover:border-gaming-purple transition-">
+                  {feature.title}all duration-300 hover:scale
+                </h3>
+                -105 ${
+                plan<p className="text-gray-600 dark:.popular ? 'ring-2 ring-gaming-orange' : ''text-gray-300 leading-relaxed">
+              }`}
+            >
+              {
+                  {feature.description}
+                </pplan.popular && (
+                >
+              </CardContent><div className="absolute -top-4
+            </Card>
+          ))} left-1
+        </div>
+        
+        <div/2 transform - className="text-center mt-16translate-x-1/2">
+                  <span">
+          <div className="bg className="bg-gaming-orange text-gradient-to-r from-gaming-purple via-white px-4 py-1-gaming-pink to-gaming- rounded-full text-sm font-semorange p-8 rounded-3xl text-white">
+            <h3 className="text-3xl font-bold mb-4">Готibold">
+                    Популярныйов начать?</h3>
+                  </span>
+                </div>
+              )}
+
+              <CardHeader className="text-center pb-4">
+                <div className={`w-16 h
+            <p className="text-xl mb-6 opacity-90">-16 mx-auto mb-4 rounded-full
+              Присоединяйся к тыс ${plan.color} flex items-center justifyячам довольных иг-center`}>
+                  <Iconроков уже сегодня
+             name="Server" className="w-8 h-8</p>
+            <div className="flex flex-col text-white" />
+                </div> sm:flex-row
+                <CardTitle className="text-2xl font-bold text-white">{plan.name}</CardTitle>
+                <p className=" gap-4 justify-center">
+              <button className="bg-white text-gaming-purple hover:bg-graytext-gray-400">{plan.description-100 px-8 py-3}</p>
+              </CardHeader rounded-lg font-semib>
+
+              <CardContent className="pt-old transition-all duration-300 hover:scale-105">0">
+                <div className="text-center mb-6">
+                  
+                Создать сервер
+              </button>
+              <button className="border<div className="flex items-baseline justify-2 border-white text-white hover-center">
+                    :bg-white hover:text-<span className="text-gaming-purple px-8 py4xl font-bol-3 rounded-lg font-d text-white">{semibold transition-all duration-300">
+                plan.price}</span>
+                    Связаться с нами
+              <span className="</button>
+            </div>
+          </div>
+        text-xl text-gray-400</div>
+      </div> ml-1">
+    </section>
+  );₽/{plan.period}</span
+};
+
+export default FeaturesSection>
+                  </div>;
